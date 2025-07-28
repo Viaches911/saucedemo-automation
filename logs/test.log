@@ -1,6 +1,12 @@
-2025-07-27 20:44:38 INFO  tests.BaseTest - Setup WebDriver and browser launching()
-2025-07-27 20:44:40 INFO  tests.BaseTest - Open Base URLhttps://www.saucedemo.com/
-2025-07-27 20:44:41 INFO  tests.BaseTest - Open Base URLhttps://www.saucedemo.com/
-2025-07-27 20:44:42 INFO  tests.BaseTest - Open Base URLhttps://www.saucedemo.com/
-2025-07-27 20:44:42 INFO  tests.BaseTest - Browser closing
-2025-07-27 20:44:43 INFO  tests.BaseTest - Browser was closed
+2025-07-27 21:47:45 INFO  tests.BaseTest - Setting up WebDriver and launching browser
+2025-07-27 21:47:48 INFO  tests.BaseTest - Navigating to Base URL: https://www.saucedemo.com/
+2025-07-27 21:47:48 INFO  tests.BaseTest - Logging in with:  / secret_sauce
+2025-07-27 21:47:49 INFO  tests.BaseTest - Actual error: Epic sadface: Username is required
+2025-07-27 21:47:49 INFO  tests.BaseTest - Navigating to Base URL: https://www.saucedemo.com/
+2025-07-27 21:47:49 INFO  tests.BaseTest - Logging in with: standard_user / wrong_password
+2025-07-27 21:47:49 INFO  tests.BaseTest - Actual error: Epic sadface: Username and password do not match any user in this service
+2025-07-27 21:47:49 INFO  tests.BaseTest - Navigating to Base URL: https://www.saucedemo.com/
+2025-07-27 21:47:49 INFO  tests.BaseTest - Logging in with: standard_user / secret_sauce
+2025-07-27 21:47:50 INFO  tests.BaseTest - Current URL: https://www.saucedemo.com/inventory.html
+2025-07-27 21:47:50 INFO  tests.BaseTest - Closing browser
+2025-07-27 21:47:50 INFO  tests.BaseTest - Browser closed successfully

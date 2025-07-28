@@ -17,7 +17,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setup(){
-        logger.info("Setup WebDriver and browser launching()");
+        logger.info("Setting up WebDriver and launching browser");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -25,18 +25,18 @@ public class BaseTest {
 
     @BeforeMethod
     public void navigateToLoginPage(){
-        logger.info("Open Base URL"+ BASE_URL);
+        logger.info("Navigating to Base URL: "+ BASE_URL);
         driver.get(BASE_URL);
     }
 
     @AfterClass
     public void teardown(){
-        logger.info("Browser closing");
+        logger.info("Closing browser");
         if (driver != null) {
             driver.quit();
-            logger.info("Browser was closed");
+            logger.info("Browser closed successfully");
         } else {
-            logger.warn("WebDriver was null during closing");
+            logger.warn("WebDriver was null during teardown");
         }
     }
 }
