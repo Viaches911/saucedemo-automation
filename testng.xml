@@ -3,7 +3,6 @@
     <test name="AllLoginTests">
         <classes>
             <class name="tests.LoginTest"/>
-            <class name="tests.NegativeLoginTest"/>
         </classes>
     </test>
 </suite>

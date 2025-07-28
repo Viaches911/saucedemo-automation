@@ -1,0 +1,6 @@
+2025-07-27 20:44:38 INFO  tests.BaseTest - Setup WebDriver and browser launching()
+2025-07-27 20:44:40 INFO  tests.BaseTest - Open Base URLhttps://www.saucedemo.com/
+2025-07-27 20:44:41 INFO  tests.BaseTest - Open Base URLhttps://www.saucedemo.com/
+2025-07-27 20:44:42 INFO  tests.BaseTest - Open Base URLhttps://www.saucedemo.com/
+2025-07-27 20:44:42 INFO  tests.BaseTest - Browser closing
+2025-07-27 20:44:43 INFO  tests.BaseTest - Browser was closed

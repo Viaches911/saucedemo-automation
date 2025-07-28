@@ -6,6 +6,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
 
+    public LoginPage(WebDriver driver) {
+        super(driver);
+    }
+
     @FindBy(id = "user-name")
     private WebElement usernameInput;
 
@@ -15,13 +19,15 @@ public class LoginPage extends BasePage {
     @FindBy(id = "login-button")
     private WebElement loginButton;
 
-    public LoginPage(WebDriver driver) {
-        super(driver);
-    }
+    @FindBy(css = "[data-test='error']")
+    private WebElement errorMessage;
 
     public void login(String user, String pass) {
         type(usernameInput, user);
         type(passwordInput, pass);
         click(loginButton);
+    }
+    public String getErrorMessage() {
+        return getText(errorMessage);
     }
 }
